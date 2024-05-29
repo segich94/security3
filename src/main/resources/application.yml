@@ -1,0 +1,19 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: root
+    password: root
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+
+  security:
+    oauth2:
+      client:
+        registration:
+          github:
+            client-id: Ov23liPUNzrxNIrwIhIa
+            client-secret: db9623357c7f949a0455e616575541167ac3e2d5
+
